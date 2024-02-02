@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:ital,wght@0,400;1,500&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+padding:0;
+margin:0;
+/* height:100%;
+width:100%; */
+font-family:'Poppins',sans-serif;
+}
+
+html,body{
+margin:0;
+padding:0;
+}
+
+.logo{
+font-weight:600;
+font-size:100%;
+color: aquamarine;
+font-size:20px;
+/* display:flex;
+align-items:flex-start; */
+position:relative;
+}
+
+nav{
+display:flex;
+align-items:center;
+justify-content: space-between;
+background-color:#000;
+color:ghostwhite;
+/* text-shadow:2px 2px; */
+/* padding:10px 10px; */
+}
+
+ul{
+display:flex;
+
+}
+
+ul li{
+list-style:none;
+padding:0 12px;
+
+}
+
+ul li a{
+color:white;
+text-decoration: none;
+}
+
+ul>li>a:hover{
+color:palevioletred;
+}
+
+main{
+min-height:85vh;
+
+}
+
+footer{
+display:flex;
+align-items: center;
+justify-content: center;
+padding:12px;
+background-color:black;
+color:bisque;
+align-items: center;
+justify-content: center;
+font-size:12px;
+}
+
+
+@media only screen and (max-width:600px){
+body{
+background-color:lightcoral;
+display:flex;
+flex-direction:column;
+}
+nav{
+display:flex;
+flex-direction:column;  
+}
+}
+
+.Butt{
+/* margin:8px 10px; */
+padding: 8px 10px 8px 10px;
+border:1px solid black;
+box-sizing:border-box;
+border-radius:6px;
+cursor:pointer;
+position:relative;
+left:70px;
+background-color:black;
+color:white;
+border:2px solid whitesmoke;
+}
+
+img{
+width:3px;
+height:3px;
+padding:2px;
+}
+
+span{
+font-size:20px;
+}
+
+.container{
+padding:9px 15px;
+margin:auto;
+/* min-height:80vh; */
+}
+
+.container h4{
+padding:10px 
+}
+
+.form-obj[type='text']{
+padding:5px 2px;
+position:relative;
+right:2px;
+min-width:200px;
+/* display:flex;
+align-items:center; */
+/* justify-content:flex-start; */
+}
+
+.form-pass{
+    padding:5px 2px;
+    margin-left:5px;
+    /* display:flex;
+    align-items:center;
+    justify-content:flex-start; */
+    }
+
+    #male{
+    padding:0px 10px;
+    }
+
+    #female{
+    padding:0px 10px;
+    }
+
+    #resultCont div::first-letter{
+    text-transform:uppercase;
+    }
+
+    .logo img{
+    height:20px;
+    width:20px;
+    object-fit:cover;
+    filter:invert(1);
+    margin-top:10px;
+    padding:5px 5px;
+    }
+
+    .logo span{
+    margin-top:10px;
+    padding:5px 5px;
+    position:relative;
+    bottom:10px;
+    }
+    
+    .container img{
+    height:123px;
+    width:123px;
+    object-fit:cover;
+    /* filter:invert(1); */
+    }
+
+    .container h2{
+    font-size:20px;
+    padding:10px;
+    position:relative;
+    left:40px;
+    }

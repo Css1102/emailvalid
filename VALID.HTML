@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email validation page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="logo" id="dekhteh">
+        <img src="img/email.svg" alt="nhi mili image">
+        <span>IValidate</span>
+        </div>
+      <ul>
+        <li><a href="" target="_self">Home</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Reference</a></li>
+     </ul>
+    </nav>
+</header>
+<main>
+<div class="container">
+    <h4>Enter your e-mail address.</h4>
+    <form action="/submit" method="post">
+    <label for="email">Email:</label>
+    <input type="text" placeholder="Enter your e-mail to validate" class="form-obj" id="user-id" name="user-id" required>
+    <br><br>
+    <button class="Butt" id="submitBtn" type="submit" value="submit">Verify here.</button>
+    <!-- <label for="Password" class="form-pass">Enter Password:</label>
+    <input type="number" class="form-pass" name="Password" required>
+    <br>
+    <label>Gender:</label>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female" value="female">
+    <label for="female">female</label>
+    <br><br>
+    <button class="Butt" type="submit">Verify here.</button> -->
+</form>
+</div>
+<div class="container">
+    <h2>Your Results</h2>
+    <div id="resultCont">
+    <!-- <img width="123px" src="img/loading.svg" alt="image not displayed"> -->
+    </div>
+</div>
+</main>
+<footer>
+    <h4>Copyright All rights reserved.</h4>
+</footer>
+<script src="otp generate.js"></script>
+</body>
+</html>
